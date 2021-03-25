@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+body {
+  font-family: "New Tegomin", serif;
+  background-color: coral;
+}
+form {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  border: 3px solid cyan;
+  border-radius: 20px;
+  background-color: blanchedalmond;
+}
+div {
+  padding: 2%;
+}
+button {
+  height: 30px;
+  width: 75px;
+  border: 1px solid coral;
+  border-radius: 20px;
+}
+/* button:focus {
+  outline: none;
+  border: 2px solid steelblue;
+  border-radius: 20px;
+  background-color: darkslateblue;
+  color: aliceblue;
+} */
+button::after {
+  height: 30px;
+  width: 75px;
+  border: 1px solid coral;
+  border-radius: 20px;
+}
+button:hover {
+  outline: none;
+  border: 2px solid steelblue;
+  border-radius: 20px;
+  background-color: darkslateblue;
+  color: aliceblue;
+}
+#error {
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
